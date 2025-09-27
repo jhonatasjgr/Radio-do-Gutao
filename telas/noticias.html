@@ -5,8 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Notícias - Rádio do Gutão</title> <meta name="description" content="Fique por dentro das últimas notícias do mundo da música e entretenimento."> 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
 
@@ -14,30 +15,185 @@
       </nav>
 
   <main class="container my-5">
-    <h1 class="text-center mb-4">Últimas Notícias</h1>
-    <div class="row row-cols-1 row-cols-md-2 g-4">
-      
-      <div class="col">
-        <div class="card h-100 shadow-sm">
-          <img src="https://www.portalgurgueia.com.br/arquivos_personalizados/gera_foto/noticias_conteudo_destacado/arquivos_personalizados/uploads/noticias/fotos/ae8449fcf44d493085139002be81e71b_68711514141d5.jfif" class="card-img-top" alt="Imagem do festival de música Lollapalooza"> <div class="card-body">
-            <h5 class="card-title">Festival ExpoCorrente anuncia datas para 2026</h5> 
-            <p class="card-text">A organização do famoso festival confirmou a próxima edição e divulgou as primeiras atrações.</p>
-            <a href="#" class="btn btn-primary">Leia mais</a>
+    <div class="text-center mb-5">
+      <h1 style="color: var(--primary-blue);" class="float-animation">Últimas Notícias</h1>
+      <p class="lead" style="color: var(--secondary-blue);">Fique por dentro das principais notícias da música e entretenimento</p>
+    </div>
+    
+    <!-- Notícia em destaque -->
+    <div class="row mb-5">
+      <div class="col-12">
+        <div class="card program-card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="https://www.portalgurgueia.com.br/arquivos_personalizados/gera_foto/noticias_conteudo_destacado/arquivos_personalizados/uploads/noticias/fotos/ae8449fcf44d493085139002be81e71b_68711514141d5.jfif" class="img-fluid h-100" alt="Festival ExpoCorrente" style="object-fit: cover; border-radius: 15px 0 0 15px;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center mb-2">
+                  <span class="badge bg-primary">DESTAQUE</span>
+                  <small class="text-muted">Há 2 horas</small>
+                </div>
+                <h3 class="card-title" style="color: var(--primary-blue);">Festival ExpoCorrente anuncia datas para 2026</h3>
+                <p class="card-text">A organização do famoso festival confirmou a próxima edição e divulgou as primeiras atrações. O evento promete ser o maior da região, com shows nacionais e internacionais.</p>
+                <p class="card-text">Entre os confirmados estão grandes nomes da música brasileira e internacional, prometendo uma experiência única para o público.</p>
+                <a href="#" class="btn btn-primary float-animation">Leia a matéria completa</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-     
+    </div>
+
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+      
       <div class="col">
-        <div class="card h-100 shadow-sm">
-          <img src="https://www.portalgurgueia.com.br/arquivos_personalizados/gera_foto/noticias_conteudo_destacado/arquivos_personalizados/uploads/noticias/fotos/ae8449fcf44d493085139002be81e71b_68711514141d5.jfif" class="card-img-top" alt="Imagem do festival de música Lollapalooza"> <div class="card-body">
-            <h5 class="card-title">Festival ExpoCorrente anuncia datas para 2026</h5> 
-            <p class="card-text">A organização do famoso festival confirmou a próxima edição e divulgou as primeiras atrações.</p>
-            <a href="#" class="btn btn-primary">Leia mais</a>
+        <div class="card h-100">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span class="badge bg-secondary">MÚSICA</span>
+            <small class="text-muted">Há 4 horas</small>
+          </div>
+          <img src="https://via.placeholder.com/400x200/1E88E5/ffffff?text=Nova+Música" class="card-img-top" alt="Nova música lançamento" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Artista local lança novo single</h5>
+            <p class="card-text">Cantor de Corrente lança nova música que promete ser hit nas rádios da região.</p>
+            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
           </div>
         </div>
       </div>
 
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span class="badge bg-info">EVENTO</span>
+            <small class="text-muted">Há 6 horas</small>
+          </div>
+          <img src="https://via.placeholder.com/400x200/2196F3/ffffff?text=Show+Beneficente" class="card-img-top" alt="Show beneficente" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Show beneficente arrecada fundos</h5>
+            <p class="card-text">Evento organizado pela comunidade local arrecadou recursos para famílias necessitadas.</p>
+            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+          </div>
+        </div>
       </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span class="badge bg-warning">RÁDIO</span>
+            <small class="text-muted">Há 8 horas</small>
+          </div>
+          <img src="https://via.placeholder.com/400x200/0B5394/ffffff?text=Nova+Programação" class="card-img-top" alt="Nova programação" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Rádio do Gutão renova programação</h5>
+            <p class="card-text">Novos programas e horários especiais para atender melhor nossos ouvintes.</p>
+            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span class="badge bg-success">CULTURA</span>
+            <small class="text-muted">Há 12 horas</small>
+          </div>
+          <img src="https://via.placeholder.com/400x200/28a745/ffffff?text=Festival+Cultural" class="card-img-top" alt="Festival cultural" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Festival de cultura regional</h5>
+            <p class="card-text">Evento celebra as tradições e cultura da região de Corrente.</p>
+            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span class="badge bg-danger">URGENTE</span>
+            <small class="text-muted">Há 1 dia</small>
+          </div>
+          <img src="https://via.placeholder.com/400x200/dc3545/ffffff?text=Notícia+Urgente" class="card-img-top" alt="Notícia urgente" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Novo estúdio da rádio</h5>
+            <p class="card-text">Rádio do Gutão inaugura novo estúdio com tecnologia de ponta.</p>
+            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-header d-flex justify-content-between align-items-center">
+            <span class="badge bg-dark">ESPORTE</span>
+            <small class="text-muted">Há 2 dias</small>
+          </div>
+          <img src="https://via.placeholder.com/400x200/343a40/ffffff?text=Esporte+Local" class="card-img-top" alt="Esporte local" style="height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Campeonato local de futebol</h5>
+            <p class="card-text">Times da região disputam título do campeonato municipal.</p>
+            <a href="#" class="btn btn-primary btn-sm">Leia mais</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Tabela de arquivos de notícias -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2 class="text-center mb-4" style="color: var(--primary-blue);">Arquivo de Notícias</h2>
+        <table class="table table-blue">
+          <thead>
+            <tr>
+              <th>Data</th>
+              <th>Category</th>
+              <th>Título</th>
+              <th>Visualizações</th>
+              <th>Ações</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="current-program">
+              <td class="time-cell">27/09/2025</td>
+              <td><span class="badge bg-primary">DESTAQUE</span></td>
+              <td class="program-cell">Festival ExpoCorrente 2026</td>
+              <td class="presenter-cell">1.245 views</td>
+              <td><a href="#" class="btn btn-sm btn-outline-primary">Ver</a></td>
+            </tr>
+            <tr>
+              <td class="time-cell">27/09/2025</td>
+              <td><span class="badge bg-secondary">MÚSICA</span></td>
+              <td class="program-cell">Artista local lança single</td>
+              <td class="presenter-cell">892 views</td>
+              <td><a href="#" class="btn btn-sm btn-outline-primary">Ver</a></td>
+            </tr>
+            <tr class="program-highlight">
+              <td class="time-cell">26/09/2025</td>
+              <td><span class="badge bg-info">EVENTO</span></td>
+              <td class="program-cell">Show beneficente</td>
+              <td class="presenter-cell">654 views</td>
+              <td><a href="#" class="btn btn-sm btn-outline-primary">Ver</a></td>
+            </tr>
+            <tr>
+              <td class="time-cell">26/09/2025</td>
+              <td><span class="badge bg-warning">RÁDIO</span></td>
+              <td class="program-cell">Nova programação</td>
+              <td class="presenter-cell">1.123 views</td>
+              <td><a href="#" class="btn btn-sm btn-outline-primary">Ver</a></td>
+            </tr>
+            <tr>
+              <td class="time-cell">25/09/2025</td>
+              <td><span class="badge bg-success">CULTURA</span></td>
+              <td class="program-cell">Festival cultural regional</td>
+              <td class="presenter-cell">789 views</td>
+              <td><a href="#" class="btn btn-sm btn-outline-primary">Ver</a></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
   </main>
 
   <footer class="bg-dark text-white text-center p-4">

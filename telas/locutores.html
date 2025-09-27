@@ -7,7 +7,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style/style.css">
+  <link rel="stylesheet" href="../style/style.css">
 </head>
 <body>
 
@@ -15,25 +15,231 @@
       </nav>
 
   <main class="container my-5">
-    <h1 class="text-center mb-4">Nossa Equipe</h1>
+    <div class="text-center mb-5">
+      <h1 style="color: var(--primary-blue);" class="float-animation">Nossa Equipe</h1>
+      <p class="lead" style="color: var(--secondary-blue);">Conheça os profissionais que fazem a Rádio do Gutão acontecer 24 horas por dia</p>
+    </div>
+    
     <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
       
       <div class="col">
-        <div class="card h-100 text-center shadow-sm">
-          <img src="https://eleicoes2024candidatosapi.otempo.com.br/api/photo/2024/FPI180001958374_div.jpg" class="card-img-top" alt="Foto do locutor Gutão"> 
-          <div class="card-body">
-            <h5 class="card-title">Gutão</h5>
-            <p class="card-text">Apresentador do "Manhã Gutão". Apaixonado por café e gado.</p>
+        <div class="card h-100 text-center">
+          <div class="card-header">
+            <i class="bi bi-star-fill" style="color: gold; font-size: 1.2rem;"></i>
+            <span class="ms-2">Apresentador Principal</span>
           </div>
-          <div class="card-footer">
-            <a href="https://www.instagram.com/gutaovoficial/" target="_blank" class="text-dark me-2"><i class="bi bi-twitter"></i></a>
-            <a href="https://www.instagram.com/gutaovoficial/" target="_blank" class="text-dark me-2"><i class="bi bi-instagram"></i></a>
-            <a href="https://www.instagram.com/gutaovoficial/" target="_blank" class="text-dark"><i class="bi bi-facebook"></i></a>
+          <img src="https://eleicoes2024candidatosapi.otempo.com.br/api/photo/2024/FPI180001958374_div.jpg" class="card-img-top" alt="Foto do locutor Gutão" style="height: 250px; object-fit: cover;"> 
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Gutão</h5>
+            <p class="card-text">Apresentador do "Manhã Política". Apaixonado por café, gado e política. Com mais de 15 anos de experiência no rádio.</p>
+            <div class="program-time">Seg a Sex: 8h às 10h</div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="https://www.instagram.com/gutaovoficial/" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/gutaovoficial/" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="https://www.instagram.com/gutaovoficial/" target="_blank" class="btn btn-outline-primary btn-sm">
+              <i class="bi bi-facebook"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-header">
+            <i class="bi bi-music-note-beamed" style="color: var(--accent-blue); font-size: 1.2rem;"></i>
+            <span class="ms-2">DJ Musical</span>
+          </div>
+          <img src="https://via.placeholder.com/300x250/2196F3/ffffff?text=Tetezinho" class="card-img-top" alt="Foto do locutor Tetezinho" style="height: 250px; object-fit: cover;"> 
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Tetezinho</h5>
+            <p class="card-text">DJ e apresentador do "Top Hits Tetezinho". Especialista em música nacional e internacional, sempre com as novidades musicais.</p>
+            <div class="program-time">Seg a Sex: 10h às 12h</div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-twitter"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+              <i class="bi bi-spotify"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-header">
+            <i class="bi bi-people-fill" style="color: var(--secondary-blue); font-size: 1.2rem;"></i>
+            <span class="ms-2">Trio Dinâmico</span>
+          </div>
+          <img src="https://via.placeholder.com/300x250/1E88E5/ffffff?text=Trio+Pegada" class="card-img-top" alt="Foto do Trio Pegada" style="height: 250px; object-fit: cover;"> 
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Trio Pegada</h5>
+            <p class="card-text">Três apresentadores animados que comandam o "Pegada dos 3". Humor, música e muita interação com os ouvintes.</p>
+            <div class="program-time">Ter a Sex: 10h às 12h</div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-youtube"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+              <i class="bi bi-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-header">
+            <i class="bi bi-newspaper" style="color: var(--dark-blue); font-size: 1.2rem;"></i>
+            <span class="ms-2">Jornalismo</span>
+          </div>
+          <img src="https://via.placeholder.com/300x250/0B5394/ffffff?text=Equipe+News" class="card-img-top" alt="Equipe de Jornalismo" style="height: 250px; object-fit: cover;"> 
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Equipe de Jornalismo</h5>
+            <p class="card-text">Profissionais experientes que trazem as principais notícias locais, regionais e nacionais com credibilidade e agilidade.</p>
+            <div class="program-time">Todos os dias: 12h às 13h</div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-telegram"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-whatsapp"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+              <i class="bi bi-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-header">
+            <i class="bi bi-headphones" style="color: var(--accent-blue); font-size: 1.2rem;"></i>
+            <span class="ms-2">Tarde Musical</span>
+          </div>
+          <img src="https://via.placeholder.com/300x250/2196F3/ffffff?text=DJ+Paulo" class="card-img-top" alt="DJ Paulo" style="height: 250px; object-fit: cover;"> 
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">DJ Paulo</h5>
+            <p class="card-text">Especialista em MPB e música brasileira. Conduz a "Tarde Musical" com seleções especiais e histórias sobre os artistas.</p>
+            <div class="program-time">Seg a Sex: 13h às 15h</div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-soundwave"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+              <i class="bi bi-music-note"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 text-center">
+          <div class="card-header">
+            <i class="bi bi-heart-fill" style="color: #ff69b4; font-size: 1.2rem;"></i>
+            <span class="ms-2">Conexão Jovem</span>
+          </div>
+          <img src="https://via.placeholder.com/300x250/FF69B4/ffffff?text=Ana+Clara" class="card-img-top" alt="Ana Clara" style="height: 250px; object-fit: cover;"> 
+          <div class="card-body">
+            <h5 class="card-title" style="color: var(--primary-blue);">Ana Clara</h5>
+            <p class="card-text">Jovem apresentadora que comanda o "Conexão Jovem". Foca em música atual, tendências e interação com a galera jovem.</p>
+            <div class="program-time">Seg a Sex: 15h às 17h</div>
+          </div>
+          <div class="card-footer bg-transparent">
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-tiktok"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm me-2">
+              <i class="bi bi-instagram"></i>
+            </a>
+            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+              <i class="bi bi-snapchat"></i>
+            </a>
           </div>
         </div>
       </div>
       
+    </div>
+
+    <!-- Tabela de horários dos locutores -->
+    <div class="row mt-5">
+      <div class="col-12">
+        <h2 class="text-center mb-4" style="color: var(--primary-blue);">Grade de Apresentadores</h2>
+        <table class="table table-blue">
+          <thead>
+            <tr>
+              <th>Horário</th>
+              <th>Segunda</th>
+              <th>Terça</th>
+              <th>Quarta</th>
+              <th>Quinta</th>
+              <th>Sexta</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="current-program">
+              <td class="time-cell">08:00 - 10:00</td>
+              <td class="program-cell">Gutão</td>
+              <td class="program-cell">Gutão</td>
+              <td class="program-cell">Gutão</td>
+              <td class="program-cell">Gutão</td>
+              <td class="program-cell">Gutão</td>
+            </tr>
+            <tr>
+              <td class="time-cell">10:00 - 12:00</td>
+              <td class="program-cell">Tetezinho</td>
+              <td class="program-cell">Trio Pegada</td>
+              <td class="program-cell">Trio Pegada</td>
+              <td class="program-cell">Trio Pegada</td>
+              <td class="program-cell">Tetezinho</td>
+            </tr>
+            <tr class="program-highlight">
+              <td class="time-cell">12:00 - 13:00</td>
+              <td class="program-cell">Equipe News</td>
+              <td class="program-cell">Equipe News</td>
+              <td class="program-cell">Equipe News</td>
+              <td class="program-cell">Equipe News</td>
+              <td class="program-cell">Equipe News</td>
+            </tr>
+            <tr>
+              <td class="time-cell">13:00 - 15:00</td>
+              <td class="program-cell">DJ Paulo</td>
+              <td class="program-cell">DJ Paulo</td>
+              <td class="program-cell">DJ Paulo</td>
+              <td class="program-cell">DJ Paulo</td>
+              <td class="program-cell">DJ Paulo</td>
+            </tr>
+            <tr>
+              <td class="time-cell">15:00 - 17:00</td>
+              <td class="program-cell">Ana Clara</td>
+              <td class="program-cell">Ana Clara</td>
+              <td class="program-cell">Ana Clara</td>
+              <td class="program-cell">Ana Clara</td>
+              <td class="program-cell">Ana Clara</td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+    </div>
   </main>
 
   <footer class="bg-dark text-white text-center p-4">
